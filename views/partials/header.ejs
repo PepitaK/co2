@@ -1,0 +1,17 @@
+<div class= "header"> <h3> co2 / population </h3>
+</div>
+  <br><br><br>  <br><br><br>
+
+<!-- views/partials/header.ejs -->
+<body>
+<div id="wrapper">
+   <form method=post action=/>
+   <select name="valitse">
+     <% collection2.forEach(function(collection2) { %>
+       <option value=<%= collection2.CountryCode %>> <%= collection2.CountryName %></option>
+     <% }); %>
+   </select>
+
+
+   <input type=submit value="Valitse">
+   <form>
