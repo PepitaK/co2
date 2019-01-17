@@ -107,7 +107,7 @@ function getAll(callback) {
             foreignField: "CountryCode",
             as: "test"
           }
-        }]).toArray(function(err, result) {
+        }]).sort({"CountryName": 1}).toArray(function(err, result) {
           if (err) throw err;
           console.log(result);
           client.close();
