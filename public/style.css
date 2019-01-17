@@ -102,7 +102,7 @@ h1 {
 h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 44px;
-  text-shadow: 1px 1px 7px #555;
+  text-shadow: 0px 1px 5px #777;
 
 }
 
@@ -153,22 +153,6 @@ h3 {
     z-index: 10;
   }
 
-  #contant h2 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 38px;
-    color: #3a3a3a;
-    font-weight: normal;
-    margin-bottom: 20px;
-  }
-
-  #contant h2 span {
-    display: block;
-    font-size: 10px;
-    color: #808080;
-    border-top: 2px dotted #3a3a3a;
-    font-family: tahoma, arial;
-    padding-top: 5px;
-  }
 
 
   #footer {
