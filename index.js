@@ -106,8 +106,21 @@ function getAll(callback) {
             client.close();
 
             callback(err, result);
-          });
-      }});}
+  });
+      }
+    });
+}
+
+
+//////////////////// API KUTSUT
+
+app.get("/getall", function(req, res) {
+  var result = getAll(function(err, result2) {
+    //handle err, then you can render your view
+    //console.log(result);
+    res.send(result2);
+  });
+});
 
 
 
