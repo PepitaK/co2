@@ -7,7 +7,7 @@
 <p>Sovellus käyttää MongoDB -tietokantaa pilvestä. Käyttäjä voi Select -valikosta valita haluamansa maan tai alueen, ja tarkastella sen väestön kehitystä, sekä hiilidioksidipäästöjä sivulle tulostuvista kuvioista.  </p>
 <h2>API</h2>
 <br>API : https://reaktorco2.herokuapp.com/getall
-<p>Yllä olevasta linkistä API, jossa json-muodossa data. </p>
+<p>Yllä olevasta linkistä API, jossa json-muodossa kaikkien alueiden data. </p>
 <h3>Datan rakenne</h3>
 <p>Alussa Population -data, jonka sisällä test, jonka sisällä saman CountryCoden omaava setti Co2 -taulusta</p>
 <pre>{"_id":"5c31e6695e3672651fa19bf6",<br>
