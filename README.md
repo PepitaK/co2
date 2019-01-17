@@ -23,3 +23,5 @@
            "IndicatorCode":"EN.ATM.CO2E.KT",<br>
            "_1960":"","_1961":"","_1962":""...}]
  <br>}</pre>
+<br>
+<p> Hakuja voi tehdä myös maakoodin mukaan, esim Suomen tiedot löytyvät näin: https://reaktorco2.herokuapp.com/get/FIN ja ruotsin korvaamalla FIN -tilalle SWE </p>
